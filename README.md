@@ -27,16 +27,27 @@ It features a clean UI, order processing, customer segmentation, and a reports d
 ---
 
 ## 🏗️ Folder Structure
+
+```text
 ecartz_dbms_project/
 │
 ├── app.py
-├── /templates
-│ ├── index.html
-│ ├── segmentation.html
-│ └── reports.html
-├── /static
-│ ├── script.js
-│ └── styles.css
 ├── requirements.txt
 ├── database.sql
-└── README.md
+├── README.md
+│
+├── templates/
+│   ├── index.html
+│   ├── segmentation.html
+│   └── reports.html
+│
+├── static/
+│   ├── script.js
+│   └── styles.css
+├── assets/
+│   ├── Business_Analytics_UI.pdf
+│   ├── customer_segmentation_ui.png
+│   ├── er_diagram.jpg
+│   └── landing_page_ui.png
+│
+└── .env
